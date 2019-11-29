@@ -63,7 +63,7 @@ interface Func {
 }
 </pre>
 
-### Various uses
+#### Various uses
 다음의 코드는 조금씩 내부 구현을 바꿔본 예제 코드입니다.<br/>
 <pre>
 Func sub = (int a, int b) -> a - b;
