@@ -95,6 +95,8 @@ result 변수의 결과값으로 10이 나오게 됩니다.<br/>
 하나의 작업을 둘 이상의 작업으로 잘게 나눠서 동시에 진행하는 것을 병렬 처리(parallel processing)라고 합니다. <br/>
 즉 쓰레드를 이용해 많은 요소들을 빠르게 처리할 수 있습니다.<br/>
 <br/>
+https://futurecreator.github.io/2018/08/26/java-8-streams/ <br/>
+<br/>
 
 ## Stream API
 ### Get Stream
@@ -185,4 +187,5 @@ while(iterator.hasNext())
 <br/>
 https://coding-factory.tistory.com/265 <br/>
 https://jdm.kr/blog/181 <br/>
+https://futurecreator.github.io/2018/08/26/java-8-streams/ <br/>
 <br/>
