@@ -97,7 +97,6 @@ stream의 요소를 순회해야 한다면 forEach를 활용할 수 있습니다
 Arrays.asList(1,2,3).stream()
     .forEach(System.out::println); // 1,2,3
 </pre>
-<br/>
 
 #### 2. map<br/>
 stream의 개별 요소마다 연산을 수행할 수 있습니다.<br/>
@@ -107,12 +106,10 @@ Arrays.asList(1,2,3).stream()
     .map(i -> i*i)
     .forEach(System.out::println); // 1,4,9
 </pre>
-<br/>
 
 #### 3. limit<br/>
 <pre>
 </pre>
-<br/>
 
 <br/>
 https://coding-factory.tistory.com/265 <br/>
