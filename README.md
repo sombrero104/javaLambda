@@ -64,7 +64,20 @@ interface Func {
 </pre>
 <br/>
 
-
+### Various uses
+다음의 코드는 조금씩 내부 구현을 바꿔본 예제 코드입니다.
+<pre>
+Func sub = (int a, int b) -> a - b;
+Func add = (int a, int b) -> a + b;
+Func add2 = (int a, int b) -> { return a + b; };
+</pre>
+실제로 람다식을 통해 내부를 구현한 함수 add는 어떻게 사용할까요?
+위에서 만든 add와 add2 함수를 사용했습니다.
+<pre>
+int result = add.calc(1, 2) + add2.calc(3, 4); // 10
+</pre>
+result 변수의 결과값으로 10이 나오게 됩니다.
+<br/>
 
 
 <br/>
