@@ -188,7 +188,7 @@ while(iterator.hasNext())
 https://coding-factory.tistory.com/265 <br/>
 https://jdm.kr/blog/181 <br/>
 https://futurecreator.github.io/2018/08/26/java-8-streams/ <br/>
-<br/><br/>
+<br/><br/><br/>
 
 ### 병렬 스트림(Parallel Stream)
 스트림 생성 시 사용하는 stream() 대신 parallelStream() 메소드를 사용해서 병렬 스트림을 쉽게 생성할 수 있습니다.<br/>
