@@ -79,6 +79,24 @@ int result = add.calc(1, 2) + add2.calc(3, 4); // 10
 result 변수의 결과값으로 10이 나오게 됩니다.
 <br/>
 
+### Stream API
+#### Get Stream
+Stream API를 사용하려면 stream을 얻어와야 합니다. 얻는 방법은 다음과 같습니다.
+<pre>
+1. stream을 가져오는 일반적인 방법.
+Arrays.asList(1,2,3).stream();
+
+2. 병렬로 stream을 가져오는 방법.
+Arrays.asList(1,2,3).parallelStream();
+</pre>
+실제로 얻어온 stream에 연산을 해봅시다. 주요하게 쓰이는 몇가지 API만 살펴봅시다.
+1. forEach
+stream의 요소를 순회해야 한다면 forEach를 활용할 수 있습니다.
+<pre>
+Arrays.asList(1,2,3).stream()
+    .forEach(System.out::println); // 1,2,3
+</pre>
+
 
 <br/>
 https://coding-factory.tistory.com/265 <br/>
