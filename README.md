@@ -19,7 +19,7 @@
 - 재귀로 만들 경우에 다소 부적합한 면이 있다.
 <br/>
 
-### Lambda Expressions Example
+## Lambda Expressions Example
 <pre>
 ( parameters ) -> expression body
 ( parameters ) -> { expression body }
@@ -28,7 +28,7 @@
 </pre>
 <br/>
 
-### Using @FunctionalInterface
+## Using @FunctionalInterface
 객체지향 언어인 자바에서 값이나 객체가 아닌 하나의 함수(Function)을 변수에 담아둔다는 것은 이해가 되지 않을 것입니다.<br/>
 하지만 자바8에서 람다식이 추가되고 나서는 하나의 변수에 하나의 함수를 매핑할 수 있습니다.<br/>
 <pre>
@@ -79,7 +79,7 @@ int result = add.calc(1, 2) + add2.calc(3, 4); // 10
 result 변수의 결과값으로 10이 나오게 됩니다.<br/>
 <br/>
 
-### Stream API
+## Stream API
 #### Get Stream
 Stream API를 사용하려면 stream을 얻어와야 합니다. 얻는 방법은 다음과 같습니다.<br/>
 <pre>
