@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Stream API
@@ -98,6 +99,9 @@ public class StreamAPI_01 {
                 .iterator();
         while(iterator.hasNext())
             System.out.println("# iterator: " + iterator.next());
+
+
+        Stream stream = Arrays.asList(1,2,3).stream();
     }
 
 }

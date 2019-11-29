@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c5ede5-7c5c-40f7-8f94-9ef15e8bf396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StreamAPI_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StreamAPI_01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
+            <state relative-caret-position="1442">
+              <caret line="174" column="5" lean-forward="true" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +53,8 @@
         <option value="$PROJECT_DIR$/src/main/java/RunnableEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadEx2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StreamAPI_01.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/StreamAPI_01.java" />
       </list>
     </option>
   </component>
@@ -279,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StreamAPI_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="93" column="46" lean-forward="true" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -289,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="152" column="46" selection-start-line="152" selection-start-column="46" selection-end-line="152" selection-end-column="46" />
+        <state relative-caret-position="1442">
+          <caret line="174" column="5" lean-forward="true" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
         </state>
       </provider>
     </entry>
