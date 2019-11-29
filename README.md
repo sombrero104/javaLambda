@@ -79,7 +79,7 @@ result 변수의 결과값으로 10이 나오게 됩니다.<br/>
 <br/><br/><br/>
 
 ## Stream API
-#### Get Stream
+### Get Stream
 Stream API를 사용하려면 stream을 얻어와야 합니다. 얻는 방법은 다음과 같습니다.<br/>
 <pre>
 1. stream을 가져오는 일반적인 방법.
@@ -91,7 +91,7 @@ Arrays.asList(1,2,3).parallelStream();
 실제로 얻어온 stream에 연산을 해봅시다. 주요하게 쓰이는 몇가지 API만 살펴봅시다.<br/>
 <br/>
 
-1. forEach<br/>
+#### 1. forEach<br/>
 stream의 요소를 순회해야 한다면 forEach를 활용할 수 있습니다.<br/>
 <pre>
 Arrays.asList(1,2,3).stream()
@@ -99,7 +99,7 @@ Arrays.asList(1,2,3).stream()
 </pre>
 <br/>
 
-2. map<br/>
+#### 2. map<br/>
 stream의 개별 요소마다 연산을 수행할 수 있습니다.<br/>
 아래의 코드는 리스트에 있는 요소의 제곱 연산을 합니다.<br/>
 <pre>
@@ -109,7 +109,7 @@ Arrays.asList(1,2,3).stream()
 </pre>
 <br/>
 
-3. limit<br/>
+#### 3. limit<br/>
 <pre>
 </pre>
 <br/>
