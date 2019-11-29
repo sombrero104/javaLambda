@@ -28,6 +28,20 @@
 </pre>
 <br/>
 
+### Using @FunctionalInterface
+객체지향 언어인 자바에서 값이나 객체가 아닌 하나의 함수(Function)을 변수에 담아둔다는 것은 이해가 되지 않을 것입니다.<br/>
+하지만 자바8에서 람다식이 추가되고 나서는 하나의 변수에 하나의 함수를 매핑할 수 있습니다.<br/>
+<pre>
+Func add = (int a, int b) -> a + b;
+</pre>
+int형 매개변수 a, b를 받아 그것을 합치는 것을 람다식으로 표현한 것입니다.<br/>
+그러면 Func는 무엇이어야 할까요? 답은 interface 입니다.<br/>
+<pre>
+interface Func {
+    public int calc(int a, int b);
+}
+</pre>
+
 <br/>
 https://coding-factory.tistory.com/265 <br/>
 https://jdm.kr/blog/181 <br/>
