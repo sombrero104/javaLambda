@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StreamAPI_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="362">
+              <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,8 +204,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1291" y="23" width="1221" height="969" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1173" y="23" width="1221" height="969" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14588635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -283,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StreamAPI_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="362">
+          <caret line="81" column="14" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,5 +1,9 @@
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Stream API
@@ -82,6 +86,18 @@ public class StreamAPI_01 {
          * 8. collection
          * 아래의 코드들은 각각의 메소드로 컬렉션 객체를 만들어서 반환한다.
          */
+        System.out.println("[collection]-----------------------------------");
+
+        // (1) List로 변환.
+        List list = Arrays.asList(1,2,3).stream()
+                .collect(Collectors.toList());
+        System.out.println("# list: " + list);
+
+        // (2) Iterator로 변환.
+        Iterator iterator = Arrays.asList(1,2,3).stream()
+                .iterator();
+        while(iterator.hasNext())
+            System.out.println("# iterator: " + iterator.next());
     }
 
 }
